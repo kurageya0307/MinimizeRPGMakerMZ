@@ -5,10 +5,10 @@ RPGツクールMZの音楽・画像・effekseerファイルを最小セットに
 RPGツクールMZにて「ファイル→プロジェクトの新規作成」を選ぶと，
 コピー元となるCドライブのフォルダから
 大量のデータがコピーされます。
-Steam版の場合
-C:\Program Files (x86)\Steam\steamapps\common\RPG Maker MZ\newdata
-KADOKAWA版の場合（__KADOKAWA版を購入していないので推測です！__）
-C:\Program Files (x86)KADOKAWA\RPGMZ\newdata
+Steam版の場合  
+C:\Program Files (x86)\Steam\steamapps\common\RPG Maker MZ\newdata  
+KADOKAWA版の場合（__KADOKAWA版を購入していないので推測です！__）  
+C:\Program Files (x86)KADOKAWA\RPGMZ\newdata  
 
 これがわりとデータ容量を食っていたので
 コピー元を必要最小限に変更するようなバッチファイルを作成しました。
