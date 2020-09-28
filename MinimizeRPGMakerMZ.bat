@@ -1,47 +1,47 @@
 @echo off
 
 if not exist "newdata\" (
-  echo –{ƒoƒbƒ`ƒtƒ@ƒCƒ‹‚Í"C:\Program Files (x86)\Steam\steamapps\common\RPG Maker MZ"‚Ì’¼‰º‚É’u‚¢‚ÄÀs‚µ‚Ä‚­‚¾‚³‚¢B
+  echo æœ¬ãƒãƒƒãƒãƒ•ã‚¡ã‚¤ãƒ«ã¯"C:\Program Files (x86)\Steam\steamapps\common\RPG Maker MZ"ã®ç›´ä¸‹ã«ç½®ã„ã¦å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
   pause
   exit
 )
 
-echo ƒcƒN[ƒ‹MZ‚ÌƒRƒs[Œ³ƒtƒ@ƒCƒ‹‚ğÅ¬ƒZƒbƒg‚É‚È‚é‚æ‚¤ƒJƒbƒgƒAƒ“ƒhƒy[ƒXƒg‚µ‚Ü‚·B
-echo –{ƒc[ƒ‹‚ğg—p‚·‚é‘O‚Énewdata“à‚ÌƒoƒbƒNƒAƒbƒv‚ğ‚Æ‚Á‚Ä‚­‚¾‚³‚¢B
-echo –{ƒc[ƒ‹‚Ìg—p‚É‚æ‚Á‚Ä”­¶‚µ‚½•s‹ï‡iƒf[ƒ^‚ª”ò‚ñ‚¾“™j‚ÉìÒ‚¢‚©‚È‚é•ÛØ‚à’v‚µ‚Ü‚¹‚ñB 
-set /P YES_OR_NO="ƒoƒbƒNƒAƒbƒv‚ğ‚Æ‚è‚Ü‚µ‚½‚©H(Y/N)"
+echo ãƒ„ã‚¯ãƒ¼ãƒ«MZã®ã‚³ãƒ”ãƒ¼å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã‚’æœ€å°ã‚»ãƒƒãƒˆã«ãªã‚‹ã‚ˆã†ã‚«ãƒƒãƒˆã‚¢ãƒ³ãƒ‰ãƒšãƒ¼ã‚¹ãƒˆã—ã¾ã™ã€‚
+echo æœ¬ãƒ„ãƒ¼ãƒ«ã‚’ä½¿ç”¨ã™ã‚‹å‰ã«newdataå†…ã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’ã¨ã£ã¦ãã ã•ã„ã€‚
+echo æœ¬ãƒ„ãƒ¼ãƒ«ã®ä½¿ç”¨ã«ã‚ˆã£ã¦ç™ºç”Ÿã—ãŸä¸å…·åˆï¼ˆãƒ‡ãƒ¼ã‚¿ãŒé£›ã‚“ã ç­‰ï¼‰ã«ä½œè€…ã„ã‹ãªã‚‹ä¿è¨¼ã‚‚è‡´ã—ã¾ã›ã‚“ã€‚ 
+set /P YES_OR_NO="ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’ã¨ã‚Šã¾ã—ãŸã‹ï¼Ÿ(Y/N)"
 IF "%YES_OR_NO%" == "Y" (
-  echo Às‚·‚éƒRƒ}ƒ“ƒh‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
+  echo å®Ÿè¡Œã™ã‚‹ã‚³ãƒãƒ³ãƒ‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
 ) ELSE IF "%YES_OR_NO%"=="y" ( 
-  echo Às‚·‚éƒRƒ}ƒ“ƒh‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
+  echo å®Ÿè¡Œã™ã‚‹ã‚³ãƒãƒ³ãƒ‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
 ) ELSE (
-  echo ˆ—‚ğ’†’f‚µ‚Ü‚·B
+  echo å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚
   pause
   exit
 )
 
-echo 1FƒcƒN[ƒ‹MZ‚ğÅ¬ƒZƒbƒg‚É‚·‚éB
-echo 2FƒcƒN[ƒ‹MZ‚ğŒ³‚É–ß‚·B
-echo ã‹LˆÈŠOF‰½‚à‚µ‚È‚¢B 
-set /P STR_INPUT="1 or 2 or ‚»‚Ì‘¼ƒL["
+echo 1ï¼šãƒ„ã‚¯ãƒ¼ãƒ«MZã‚’æœ€å°ã‚»ãƒƒãƒˆã«ã™ã‚‹ã€‚
+echo 2ï¼šãƒ„ã‚¯ãƒ¼ãƒ«MZã‚’å…ƒã«æˆ»ã™ã€‚
+echo ä¸Šè¨˜ä»¥å¤–ï¼šä½•ã‚‚ã—ãªã„ã€‚ 
+set /P STR_INPUT="1 or 2 or ãã®ä»–ã‚­ãƒ¼"
 
 IF "%STR_INPUT%" == "1" (
-  echo "%STR_INPUT%FÅ¬ƒZƒbƒg"
+  echo "%STR_INPUT%ï¼šæœ€å°ã‚»ãƒƒãƒˆ"
   call :label_mkdir
   call :label_move
   call :label_mini_copy
 ) ELSE IF "%STR_INPUT%"=="2" ( 
-  echo "%STR_INPUT%FŒ³‚É–ß‚·"
+  echo "%STR_INPUT%ï¼šå…ƒã«æˆ»ã™"
   call :label_move_back
 ) ELSE (
-  echo "%STR_INPUT%Fˆ—’†~"
+  echo "%STR_INPUT%ï¼šå‡¦ç†ä¸­æ­¢"
 )
 
-echo I—¹‚µ‚Ü‚·B
+echo çµ‚äº†ã—ã¾ã™ã€‚
 pause
 exit
 
-rem ƒoƒbƒNƒAƒbƒvæ‚ÌƒtƒHƒ‹ƒ_‚ª‘¶İ‚µ‚È‚¯‚ê‚Îì¬‚·‚é
+rem ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—å…ˆã®ãƒ•ã‚©ãƒ«ãƒ€ãŒå­˜åœ¨ã—ãªã‘ã‚Œã°ä½œæˆã™ã‚‹
 :label_mkdir
 if not exist "newdata_backup\" (
   mkdir newdata_backup
@@ -134,7 +134,7 @@ if not exist "newdata_backup\js" (
 exit /b
 
 
-rem ƒoƒbƒNƒAƒbƒvæ‚ÉƒJƒbƒgƒAƒ“ƒhƒy[ƒXƒg‚·‚é
+rem ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—å…ˆã«ã‚«ãƒƒãƒˆã‚¢ãƒ³ãƒ‰ãƒšãƒ¼ã‚¹ãƒˆã™ã‚‹
 :label_move
 move newdata\audio\bgm\*        newdata_backup\audio\bgm\
 move newdata\audio\bgs\*        newdata_backup\audio\bgs\
@@ -158,7 +158,7 @@ move newdata\img\titles2\*      newdata_backup\img\titles2\
 
 exit /b
 
-rem Å¬ƒZƒbƒg‚Ì‚İƒRƒs[‚µ‚Ä–ß‚·B
+rem æœ€å°ã‚»ãƒƒãƒˆã®ã¿ã‚³ãƒ”ãƒ¼ã—ã¦æˆ»ã™ã€‚
 :label_mini_copy
 copy newdata_backup\audio\bgm\Battle1.ogg newdata\audio\bgm\
 copy newdata_backup\audio\bgm\Ship1.ogg   newdata\audio\bgm\
@@ -200,11 +200,11 @@ copy newdata_backup\audio\se\Shop1.ogg      newdata\audio\se\
 
 
 copy newdata_backup\data\*                  newdata\data\
-rem Animations.json‚Ì‚İ“à—e‚ğ•ÏX‚·‚é
+rem Animations.jsonã®ã¿å†…å®¹ã‚’å¤‰æ›´ã™ã‚‹
 del  newdata\data\Animations.json
 echo [ > newdata\data\Animations.json
 echo null, >> newdata\data\Animations.json
-echo {"id":1,"displayType":0,"effectName":"HitPhysical","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,255]}],"name":"‘ÅŒ‚/•¨—","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":50,"soundTimings":[{"frame":0,"se":{"name":"Blow1","pan":0,"pitch":100,"volume":90}}],"speed":100}  >> newdata\data\Animations.json
+echo {"id":1,"displayType":0,"effectName":"HitPhysical","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,255]}],"name":"æ‰“æ’ƒ/ç‰©ç†","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":50,"soundTimings":[{"frame":0,"se":{"name":"Blow1","pan":0,"pitch":100,"volume":90}}],"speed":100}  >> newdata\data\Animations.json
 echo ] >> newdata\data\Animations.json
 
 
@@ -234,7 +234,7 @@ copy newdata_backup\img\titles1\Ruins.png newdata\img\titles1\
 
 exit /b
 
-rem ƒoƒbƒNƒAƒbƒv‚ğŒ³‚É–ß‚·B
+rem ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å…ƒã«æˆ»ã™ã€‚
 :label_move_back
 move newdata_backup\audio\bgm\*        newdata\audio\bgm\
 move newdata_backup\audio\bgs\*        newdata\audio\bgs\
