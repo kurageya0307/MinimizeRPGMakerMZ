@@ -19,8 +19,8 @@ C:\Program Files (x86)KADOKAWA\RPGMZ\newdata
 
 # 使い方
 ## 最小化の方法
-1.　CドライブのRPGツクールMZのフォルダ直下に[MinimizeRPGMakerMV.bat](https://github.com/kurageya0307/MinimizeRPGMakerMV/blob/master/MinimizeRPGMakerMV.bat)を置いてください。
-（フォルダの例，C:\Program Files (x86)\KADOKAWA\RPGMZ）
+1.　CドライブのRPGツクールMZのフォルダ直下に[MinimizeRPGMakerMZ.bat](https://raw.githubusercontent.com/kurageya0307/MinimizeRPGMakerMZ/master/MinimizeMZ.bat)を置いてください。
+（フォルダの例，C:\Program Files (x86)\Steam\steamapps\common\RPG Maker MZ\newdata）
 
 __2.　【重要】フォルダ「newdata」をバックアップしてください。__
 
